@@ -28,7 +28,7 @@ flowchart LR
       I[Ingestion]
       P[Privacy Controls]
       M[Memory + Provenance]
-      X[Indexes\nVector | Graph | Time]
+      X[Indexes\nVector, Graph, Time]
     end
 
     subgraph ControlPlane[Control Plane]

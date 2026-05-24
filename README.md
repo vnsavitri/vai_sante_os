@@ -50,9 +50,9 @@ High-stakes workflows (health, legal, policy, safety, operations) often involve:
 
 ```mermaid
 flowchart TD
-    A[Ingestion Adapters\nPDF | OCR | Audio | Structured Data] --> B[Normalisation & Redaction]
+    A[Ingestion Adapters\nPDF, OCR, Audio, Structured Data] --> B[Normalisation & Redaction]
     B --> C[Evidence Store\nObject + Metadata + Access Policy]
-    C --> D[Indexing Layer\nEmbeddings | Entity Graph | Temporal Index]
+    C --> D[Indexing Layer\nEmbeddings, Entity Graph, Temporal Index]
     D --> E[Retrieval Engine\nHybrid + Provenance Constraints]
     E --> F[Reasoning & Orchestration\nAgent Workflows + Tools]
     F --> G[Review Interface\nHuman Approval + Feedback]
